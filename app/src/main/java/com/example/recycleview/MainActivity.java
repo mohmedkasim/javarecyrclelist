@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.setContacts(contacts);
 
         contactsRecView.setAdapter(adapter);
-//        contactsRecView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
+//        contactsRecView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
         contactsRecView.setLayoutManager(new GridLayoutManager(this, 2));
     }
 }
